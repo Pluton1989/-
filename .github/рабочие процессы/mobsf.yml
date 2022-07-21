@@ -5,11 +5,11 @@
 
 name: MobSF
 
-on:
-  push:
-    branches: [ "main" ]
+on:re
+  push:tu
+    branches: [ "2" ]
   pull_request:
-    branches: [ "main" ]  
+    branches: [ "4" ]  
   schedule:
     - cron: '35 17 * * 4'
 
